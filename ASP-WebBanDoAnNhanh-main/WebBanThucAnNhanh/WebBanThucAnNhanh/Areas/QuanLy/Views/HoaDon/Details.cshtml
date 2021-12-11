@@ -1,0 +1,73 @@
+﻿@model WebBanThucAnNhanh.Models.HOADON
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/QuanLy/Views/Shared/_Layout.cshtml";
+    var CTHOADON = Session["CTHOADON"] as WebBanThucAnNhanh.Models.CTHOADON;
+}
+<div style="padding-left:20px">
+    <h2>CHI TIẾT HÓA ĐON</h2>
+
+    <div>
+        <h4>MÃ HÓA ĐƠN : @Html.DisplayFor(model => model.MAHOADON)</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                NGÀY GIỜ : @Html.DisplayFor(model => model.NGAYGIO)
+            </dt>
+            <dt>
+                MÃ ĐẶT HÀNG : @Html.DisplayFor(model => model.MADATHANG)
+            </dt>
+            <dt>
+                TÊN KHÁCH HÀNG : @Html.DisplayFor(model => model.DATHANG.DIACHIGH.HOTEN)
+            </dt>
+            <dt>    
+                SỐ ĐIỆN THOẠI : @Html.DisplayFor(model => model.DATHANG.DIACHIGH.SDT)
+            </dt>
+            <dt>
+                ĐỊA CHỈ : @Html.DisplayFor(model => model.DATHANG.DIACHIGH.SONHA) P.@Html.DisplayFor(model => model.DATHANG.DIACHIGH.PHUONG) Q.@Html.DisplayFor(model => model.DATHANG.DIACHIGH.QUAN)
+            </dt>
+            <dt>
+                TỔNG TIỀN : @Html.DisplayFor(model => model.TONGTIEN)
+            </dt>
+        </dl>
+    </div>
+    <hr />
+    <table class="table">
+        <tr>
+            <th>
+                MÓN ĂN
+            </th>
+            <th>
+                SỐ LƯỢNG
+            </th>
+            <th>
+                GIÁ BÁN
+            </th>
+            <th>
+                GHI CHÚ
+            </th>
+        </tr>
+        @foreach (var item in Model.CTHOADONs)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CT_MONAN_DATHANG.MONAN.TENMONAN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SOLUONG)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CT_MONAN_DATHANG.GIABAN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GHICHU)
+                </td>
+            </tr>
+        }
+
+    </table>
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>

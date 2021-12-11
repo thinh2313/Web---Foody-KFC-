@@ -1,0 +1,52 @@
+﻿@model WebBanThucAnNhanh.Models.FEEDBACK
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/QuanLy/Views/Shared/_Layout.cshtml";
+}
+
+
+<div>
+    <h4>Chi tiết phản hồi</h4>
+    <hr />
+    <div style="padding:0 20%">
+        <table class="dl-horizontal">
+            <tr>
+                <td>Mã Feedback</td>
+                <td>
+                    : @Html.DisplayFor(model => model.MAFEEDBACK)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Số điện thoại
+                </td>
+                <td>
+                     : @Html.DisplayFor(model => model.SDT)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tên
+                </td>
+                <td>
+                    : @Html.DisplayFor(model => model.TENKH)
+                </td>
+            <tr>
+                <td>
+                    Nội dung
+                </td>
+                <td>
+                    : @Html.DisplayFor(model => model.NOIDUNG)
+                </td>
+            </tr>
+
+
+        </table>
+        <p style="margin-top:10px;">
+            <a href="@Url.Action("Delete","Feedback", new { id = Model.MAFEEDBACK })" class="btn btn-sm btn-danger">Xóa</a>
+            @Html.ActionLink("Back to List", "Index")
+        </p>
+    </div>
+</div>
+

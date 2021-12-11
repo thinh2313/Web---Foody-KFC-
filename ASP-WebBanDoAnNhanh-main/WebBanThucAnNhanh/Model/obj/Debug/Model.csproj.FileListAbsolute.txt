@@ -1,0 +1,12 @@
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\bin\Debug\Model.dll.config
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\bin\Debug\Model.dll
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\bin\Debug\Model.pdb
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\bin\Debug\EntityFramework.dll
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\bin\Debug\EntityFramework.SqlServer.dll
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\bin\Debug\EntityFramework.xml
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\bin\Debug\EntityFramework.SqlServer.xml
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\obj\Debug\Model.csprojAssemblyReference.cache
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\obj\Debug\Model.csproj.CopyComplete
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\obj\Debug\Model.dll
+H:\năm 3 - HK2\Đồ án 1\WebBanThucAnNhanh\Model\obj\Debug\Model.pdb

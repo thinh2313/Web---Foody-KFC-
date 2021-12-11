@@ -1,0 +1,4 @@
+﻿@model  WebBanThucAnNhanh.Models.LOAI
+
+@Html.DropDownListFor(model => model.MALOAI,
+new SelectList(Model.listLoai.OrderBy(model => model.TENLOAI), "MALOAI", "TENLOAI"), "--Chọn loại--")

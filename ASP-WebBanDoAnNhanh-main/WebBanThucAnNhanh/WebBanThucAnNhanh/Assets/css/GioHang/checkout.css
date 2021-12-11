@@ -1,0 +1,41 @@
+﻿input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+}
+input[type=number] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+}
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+.checkout-font{
+    font-weight:600;
+}
+* {
+    box-sizing: border-box;
+}
+form {
+    display:flex;
+    width: 100%
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+.col-25,
+.col-50,
+.col-75 {
+    width: 40%;
+    padding: 0 16px;
+}

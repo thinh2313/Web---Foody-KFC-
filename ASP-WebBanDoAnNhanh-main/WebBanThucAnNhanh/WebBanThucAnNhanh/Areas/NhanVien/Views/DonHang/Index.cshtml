@@ -1,0 +1,142 @@
+﻿@model IEnumerable<WebBanThucAnNhanh.Models.DATHANG>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/NhanVien/Views/Shared/_Layout.cshtml";
+    <link href="~/Assets/admin/css/nv-dathang.css" rel="stylesheet" />
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6 text-danger text-uppercase">
+                    <strong>Danh sách đơn hàng</strong>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="card-block p-3">
+        <table class="table table-bordered table-hover table-striped">
+            <tr>
+                <th>
+                    MÃ ĐẶT HÀNG
+                </th>
+                <th>
+                    TÊN KHÁCH HÀNG
+                </th>
+                <th>
+                    ĐIỆN THOẠI
+                </th>
+                <th>
+                    ĐỊA CHỈ
+                </th>
+                <th>
+                    NGÀY GIỜ
+                </th>
+                <th>
+                    TỔNG TIỀN
+                </th>
+                <th>
+                    GHI CHÚ
+                </th>
+                <th>
+                    TRẠNG THÁI
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MADATHANG)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DIACHIGH.HOTEN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DIACHIGH.SDT)
+            </td>
+            <td>
+                <span>@Html.DisplayFor(modelItem => item.DIACHIGH.SONHA)</span>
+                <span>P.@Html.DisplayFor(modelItem => item.DIACHIGH.PHUONG)</span>
+                <span>Q.@Html.DisplayFor(modelItem => item.DIACHIGH.QUAN)</span>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NGAY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TONGTIEN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GHICHU)
+            </td>
+            <td>
+                @if (item.TRANGTHAI.Equals(0))
+                {
+                    <span>Chờ Xác Nhận</span>
+                }
+                @if (item.TRANGTHAI.Equals(1))
+                {
+                    <span>Đã Xác Nhận</span>
+                }
+                @if (item.TRANGTHAI.Equals(2))
+                {
+                    <span>Hoàn Tất</span>
+                }
+                @if (item.TRANGTHAI.Equals(3))
+                {
+                    <span>Hủy</span>
+                }
+            </td>
+            <td>
+                <a href="@Url.Action("XacNhan", "DonHang", new { id = @item.MADATHANG })" style="text-decoration: none;">
+                    @if (item.TRANGTHAI.Equals(0))
+                    {
+                        <span class="btn btn-info btn-sm">Xác Nhận</span>
+                    }
+                    else
+                    {
+                        <span class="btn-disabled">Đã Xác Nhận</span>
+                    }
+                </a>
+                <a href="@Url.Action("HoanTat", "DonHang", new { id = @item.MADATHANG })" style="text-decoration: none;">
+                    @if (item.TRANGTHAI.Equals(1))
+                    {
+                        <span class="btn btn-info btn-sm">Hoàn Tất Đơn</span>
+                    }
+                    @if (item.TRANGTHAI.Equals(2))
+                    {
+                        <span class="btn-disabled">Đã Hoàn Tất</span>
+                    }
+                    @if (item.TRANGTHAI.Equals(3))
+                    {
+                        <span class="btn-disabled">Hoàn Tất</span>
+                    }
+                </a>
+                <a href="@Url.Action("Huy", "DonHang", new { id = @item.MADATHANG })" style="text-decoration: none;">
+                    @if (item.TRANGTHAI.Equals(1))
+                    {
+                        <span class="btn btn-info btn-sm">Hủy</span>
+                    }
+                    @if (item.TRANGTHAI.Equals(3))
+                    {
+                        <span class="btn-disabled">Đã Hủy</span>
+                    }
+                    @if (item.TRANGTHAI.Equals(2))
+                    {
+                        <span class="btn-disabled" style="padding-left:5px">Hủy</span>
+                    }
+                </a>
+                @Html.ActionLink("Details", "Details", new { id = @item.MADATHANG })
+
+            </td>
+        </tr>
+            }
+          
+        </table>
+    </div>
+}

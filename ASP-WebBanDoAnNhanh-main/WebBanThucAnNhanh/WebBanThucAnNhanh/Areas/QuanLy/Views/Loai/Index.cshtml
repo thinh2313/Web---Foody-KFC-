@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebBanThucAnNhanh.Models.LOAI>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/QuanLy/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6 text-danger text-uppercase">
+                    <strong>Danh sách loại món</strong>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="@Url.Action("Create", "Loai")" class="btn btn-sm btn-success">Thêm loại sản phẩm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-block p-3">
+        <table class="table table-bordered table-hover table-striped">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.MALOAI)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TENLOAI)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MALOAI)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TENLOAI)
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Edit","Loai", new { id = @item.MALOAI })" class="btn btn-sm btn-warning">Sửa</a>
+                        <a href="@Url.Action("Delete","Loai", new { id = @item.MALOAI })" class="btn btn-sm btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+
+        </table>
+        </div>
+}

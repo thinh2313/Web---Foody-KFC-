@@ -1,0 +1,182 @@
+﻿@model WebBanThucAnNhanh.Models.GioHang
+
+@{ Layout = null; }
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Assets/css/GioHang/use.css" rel="stylesheet" />
+    <link href="~/Assets/css/GioHang/StyleSheet1.css" rel="stylesheet" />
+    <script src="~/Scripts/Script.js"></script>
+    <script>
+        function decrease() {
+                document.getElementById("quantityc").stepDown(1)            
+        }
+        function increase() {
+            document.getElementById("quantityc").stepUp(1);
+        }
+    </script>
+    <style>
+        .btn-quantity {
+            cursor: pointer;
+            height: 15px;
+        }
+    </style>
+</head>
+<div class="header-bg">
+    <div class="header">
+        <div class="header-all">
+            <div class="header-all-font">
+                <div class="header-all-font2">
+                    KFC RESTAURANT
+                </div>
+            </div>
+            <div class="header-all-fbottom">
+                <div class="header-all-fbottom-flex">
+                    <ul class="header-all-fbottom-flex-ul">
+                        <li class="header-all-fbottom-flex-li">
+                            <a href="/Home">HOME</a>
+                        </li>
+                        <li class="header-all-fbottom-flex-li">
+                            <a href="">ABOUT</a>
+                        </li>
+                        <li class="header-all-fbottom-flex-li">
+                            <a href="">OFFER</a>
+                        </li>
+                        <li class="header-all-fbottom-flex-li">
+                            <a href="">MENU</a>
+                        </li>
+                        <li class="header-all-fbottom-flex-li">
+                            <a href="">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="title">
+    <div class="sh-table-cell">
+        Shop
+    </div>
+    <div class="title2 sh-table-cell">
+        <span class="title2-all">
+            <a href="/Home">Home</a>
+        </span>
+        <span class="title2-all title2-cart"> > </span>
+        <span class="title2-all title2-cart">Giỏ Hàng</span>
+    </div>
+</div>
+<div class="shopping-cart">
+    <div class="padding">
+        <div class="giohang1">
+            <div class="giohang2 giohang2both">
+                Giỏ Hàng
+            </div>
+            <div class="giohang2both">
+                Thanh Toán
+            </div>
+            <div class="giohang2both">
+                Thành Công
+            </div>
+        </div>
+    </div>
+    @if (Model != null)
+    {
+        <div class="padding-table">
+            
+                <table class="content-table table-bordered table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th class="product-remove">
+                            </th>
+                            <th class="product-thumbnail">
+                            </th>
+                            <th class="product-name">
+                                Món Ăn
+                            </th>
+                            <th class="product-price">
+                                Giá
+                            </th>
+                            <th class="product-quantity">
+                                Số Lượng
+                            </th>
+                            <th class="product-subtotal">
+                                Tổng
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var pro in Model.Items)
+                        {
+                            double total = pro._monan.GIABAN * pro._quantity;
+                            <tr>
+                                <td class="product-remove buttons">
+                                    <a href="/GioHang/RemoveCart/@pro._monan.MAMONAN">
+                                        <span class="delete-btn"></span>
+                                    </a>
+                                </td>
+                                <td class="product-thumbnail image">
+                                    <img src="@Url.Content(pro._monan.HINHANH)" style="width:100px;height:100px;border-radius: 15px;" />
+                                </td>
+                                <td class="product-name description">
+                                    @Html.DisplayFor(model => pro._monan.TENMONAN)
+                                </td>
+                                <td class="product-price">
+                                    @(pro._monan.GIABAN.ToString("N0")) VNĐ
+                                </td>
+                                <td>
+                                    @using (Html.BeginForm("Update_Quantity_Cart", "GioHang"))
+                                    {
+                                        <input type="hidden" value="@pro._monan.MAMONAN" name="MA_MONAN" />
+                                        <input  type="number" value="@pro._quantity" name="Quantity"class="quantity">   
+                                        <input class="Update" type="submit" value="Cập Nhật" />
+                                    }
+                                    </td>
+                                <td class="product-subtotal total-price">
+                                    @total.ToString("N0") VNĐ
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="padding-nextpage">
+                    <table class="next-table">
+                        <tr>
+                            <td>
+                                <div colspan="5" style="text-align:right;justify-content: space-between;display:flex;">
+                                    <div>
+                                        <span><input class="code" type="text" placeholder="Code" /></span>
+                                        <span><input class="btn-code" type="submit" value="Xác Nhận Code" /></span>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            <div style="padding-top:30px">
+                <div style="width:40%">
+                    <h2 style="color:#1a1a1a">
+                        TỔNG GIỎ HÀNG
+                        <span c style="color:#1a1a1a;padding-left:15px">
+                            <i class="fa fa-shopping-cart"></i>
+                            <b>
+                                @Html.Action("BagCart", "GioHang")
+                            </b>
+                        </span>
+                    </h2>
+                    <div>
+                        @foreach (var pro in Model.Items)
+                        {
+                            double total = pro._monan.GIABAN * pro._quantity;
+                            <p style="margin-block-start: 0em; margin-block-end: 0em;" class="carttotal"> @Html.DisplayFor(model => pro._monan.TENMONAN) x @Html.DisplayFor(model => pro._quantity) <span class="price">@total.ToString("N0") VNĐ</span></p>}
+                        <p style="margin-block-start:1mm; margin-block-end: 0em;" class="carttotal">TỔNG TIỀN <span class="price" style="color:black"><b>@Model.Total_money().ToString("N0") VNĐ</b></span></p>
+                    </div>
+                </div>
+            </div>
+            <div style="padding-top:10px;padding-bottom:60px">
+                <a href="/GioHang/Checkout">
+                    <input class="Update" type="submit" value="ĐẶT HÀNG" />
+                </a>
+            </div>
+        </div>
+    }
+</div>

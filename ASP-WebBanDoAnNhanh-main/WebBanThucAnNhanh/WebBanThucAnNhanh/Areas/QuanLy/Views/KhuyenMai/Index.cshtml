@@ -1,0 +1,66 @@
+﻿@model IEnumerable<WebBanThucAnNhanh.Models.KHUYENMAI>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/QuanLy/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6 text-danger text-uppercase">
+                    <strong>Danh sách khuyến mãi</strong>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="@Url.Action("Create", "KhuyenMai")" class="btn btn-sm btn-success">Thêm mới khuyến mãi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-block p-3">
+        <table class="table table-bordered table-hover table-striped">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.MAKHUYENMAI)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.GIAMGIA)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NGAYBATDAU)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NGAYKETTHUC)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MAKHUYENMAI)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GIAMGIA)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NGAYBATDAU)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NGAYKETTHUC)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    </td>
+                </tr>
+            }
+
+        </table>
+        </div>
+}

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLThucAnNhanhModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ADMIN">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="Pass" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="CT_MONAN_DATHANG">
+    <Key>
+      <PropertyRef Name="MADATHANG" />
+      <PropertyRef Name="MAMONAN" />
+    </Key>
+    <Property Name="MADATHANG" Type="int" Nullable="false" />
+    <Property Name="MAMONAN" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="SOLUONG" Type="int" />
+    <Property Name="GIABAN" Type="float" />
+  </EntityType>
+  <EntityType Name="CTHOADON">
+    <Key>
+      <PropertyRef Name="MAHOADON" />
+      <PropertyRef Name="MADATHANG" />
+      <PropertyRef Name="MAMONAN" />
+    </Key>
+    <Property Name="MAHOADON" Type="int" Nullable="false" />
+    <Property Name="MADATHANG" Type="int" Nullable="false" />
+    <Property Name="MAMONAN" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="SOLUONG" Type="int" />
+    <Property Name="GHICHU" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="DATHANG">
+    <Key>
+      <PropertyRef Name="MADATHANG" />
+    </Key>
+    <Property Name="MADATHANG" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NGAY" Type="datetime" Nullable="false" />
+    <Property Name="MADIACHI" Type="int" Nullable="false" />
+    <Property Name="TONGTIEN" Type="float" />
+    <Property Name="GHICHU" Type="nvarchar(max)" />
+    <Property Name="TRANGTHAI" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DIACHIGH">
+    <Key>
+      <PropertyRef Name="MADIACHI" />
+    </Key>
+    <Property Name="MADIACHI" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MAKHACHHANG" Type="int" />
+    <Property Name="HOTEN" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SDT" Type="int" Nullable="false" />
+    <Property Name="SONHA" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="PHUONG" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="QUAN" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DONVITINH">
+    <Key>
+      <PropertyRef Name="MADONVITINH" />
+    </Key>
+    <Property Name="MADONVITINH" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENDONVITINH" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="FEEDBACK">
+    <Key>
+      <PropertyRef Name="MAFEEDBACK" />
+    </Key>
+    <Property Name="MAFEEDBACK" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MAKHACHHANG" Type="int" Nullable="false" />
+    <Property Name="NOIDUNG" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HOADON">
+    <Key>
+      <PropertyRef Name="MAHOADON" />
+    </Key>
+    <Property Name="MAHOADON" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MANHANVIEN" Type="int" />
+    <Property Name="MADATHANG" Type="int" Nullable="false" />
+    <Property Name="TONGTIEN" Type="float" Nullable="false" />
+    <Property Name="NGAYGIO" Type="datetime" />
+    <Property Name="TONGTHUE" Type="float" />
+    <Property Name="GHICHU" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="KHACHHANG">
+    <Key>
+      <PropertyRef Name="MAKHACHHANG" />
+    </Key>
+    <Property Name="MAKHACHHANG" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENKHACHHANG" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="NGAYSINH" Type="datetime" />
+    <Property Name="DIACHI" Type="nvarchar(max)" />
+    <Property Name="SDT" Type="int" Nullable="false" />
+    <Property Name="EMAIL" Type="varchar(max)" Nullable="false" />
+    <Property Name="PASSWORD" Type="varchar(max)" />
+    <Property Name="LOAI" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="KHUYENMAI">
+    <Key>
+      <PropertyRef Name="MAKHUYENMAI" />
+    </Key>
+    <Property Name="MAKHUYENMAI" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="GIAMGIA" Type="float" />
+    <Property Name="NGAYBATDAU" Type="datetime" />
+    <Property Name="NGAYKETTHUC" Type="datetime" />
+  </EntityType>
+  <EntityType Name="LOAI">
+    <Key>
+      <PropertyRef Name="MALOAI" />
+    </Key>
+    <Property Name="MALOAI" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TENLOAI" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MONAN">
+    <Key>
+      <PropertyRef Name="MAMONAN" />
+    </Key>
+    <Property Name="MAMONAN" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="TENMONAN" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HINHANH" Type="text" />
+    <Property Name="MADONVITINH" Type="int" Nullable="false" />
+    <Property Name="GIABAN" Type="float" Nullable="false" />
+    <Property Name="MOTA" Type="nvarchar(max)" />
+    <Property Name="MALOAI" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="SOLUONG" Type="int" Nullable="false" />
+    <Property Name="STATUS" Type="int" />
+  </EntityType>
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MANHANVIEN" />
+    </Key>
+    <Property Name="MANHANVIEN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TENNV" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SDT" Type="int" />
+    <Property Name="EMAIL" Type="varchar(max)" Nullable="false" />
+    <Property Name="PASSWORD" Type="varchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="THONGKEBAOCAO">
+    <Key>
+      <PropertyRef Name="MATHONGKEBAOCAO" />
+    </Key>
+    <Property Name="MATHONGKEBAOCAO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="THANG" Type="datetime" Nullable="false" />
+    <Property Name="GHICHU" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TINHTRANGDON">
+    <Key>
+      <PropertyRef Name="MATINHTRANG" />
+    </Key>
+    <Property Name="MATINHTRANG" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TINHTRANG" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <Association Name="FK_CT_DATHANG">
+    <End Role="DATHANG" Type="Self.DATHANG" Multiplicity="1" />
+    <End Role="CT_MONAN_DATHANG" Type="Self.CT_MONAN_DATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DATHANG">
+        <PropertyRef Name="MADATHANG" />
+      </Principal>
+      <Dependent Role="CT_MONAN_DATHANG">
+        <PropertyRef Name="MADATHANG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CT_MONAN">
+    <End Role="MONAN" Type="Self.MONAN" Multiplicity="1" />
+    <End Role="CT_MONAN_DATHANG" Type="Self.CT_MONAN_DATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MONAN">
+        <PropertyRef Name="MAMONAN" />
+      </Principal>
+      <Dependent Role="CT_MONAN_DATHANG">
+        <PropertyRef Name="MAMONAN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTDATHANG_CTHOADON">
+    <End Role="CT_MONAN_DATHANG" Type="Self.CT_MONAN_DATHANG" Multiplicity="1" />
+    <End Role="CTHOADON" Type="Self.CTHOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CT_MONAN_DATHANG">
+        <PropertyRef Name="MADATHANG" />
+        <PropertyRef Name="MAMONAN" />
+      </Principal>
+      <Dependent Role="CTHOADON">
+        <PropertyRef Name="MADATHANG" />
+        <PropertyRef Name="MAMONAN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTHOADON_HOADON">
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="1" />
+    <End Role="CTHOADON" Type="Self.CTHOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HOADON">
+        <PropertyRef Name="MAHOADON" />
+      </Principal>
+      <Dependent Role="CTHOADON">
+        <PropertyRef Name="MAHOADON" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DATHANG_DIACHIGH">
+    <End Role="DIACHIGH" Type="Self.DIACHIGH" Multiplicity="1" />
+    <End Role="DATHANG" Type="Self.DATHANG" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DIACHIGH">
+        <PropertyRef Name="MADIACHI" />
+      </Principal>
+      <Dependent Role="DATHANG">
+        <PropertyRef Name="MADIACHI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DIACHIGH_KHACHHANG">
+    <End Role="KHACHHANG" Type="Self.KHACHHANG" Multiplicity="0..1" />
+    <End Role="DIACHIGH" Type="Self.DIACHIGH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHACHHANG">
+        <PropertyRef Name="MAKHACHHANG" />
+      </Principal>
+      <Dependent Role="DIACHIGH">
+        <PropertyRef Name="MAKHACHHANG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HOADON_DATHANG">
+    <End Role="DATHANG" Type="Self.DATHANG" Multiplicity="1" />
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DATHANG">
+        <PropertyRef Name="MADATHANG" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="MADATHANG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HOADON_NHANVIEN">
+    <End Role="NHANVIEN" Type="Self.NHANVIEN" Multiplicity="0..1" />
+    <End Role="HOADON" Type="Self.HOADON" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NHANVIEN">
+        <PropertyRef Name="MANHANVIEN" />
+      </Principal>
+      <Dependent Role="HOADON">
+        <PropertyRef Name="MANHANVIEN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MONAN_DONVITINH">
+    <End Role="DONVITINH" Type="Self.DONVITINH" Multiplicity="1" />
+    <End Role="MONAN" Type="Self.MONAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DONVITINH">
+        <PropertyRef Name="MADONVITINH" />
+      </Principal>
+      <Dependent Role="MONAN">
+        <PropertyRef Name="MADONVITINH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MONAN_LOAI">
+    <End Role="LOAI" Type="Self.LOAI" Multiplicity="1" />
+    <End Role="MONAN" Type="Self.MONAN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LOAI">
+        <PropertyRef Name="MALOAI" />
+      </Principal>
+      <Dependent Role="MONAN">
+        <PropertyRef Name="MALOAI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLThucAnNhanhModelStoreContainer">
+    <EntitySet Name="ADMIN" EntityType="Self.ADMIN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CT_MONAN_DATHANG" EntityType="Self.CT_MONAN_DATHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CTHOADON" EntityType="Self.CTHOADON" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DATHANG" EntityType="Self.DATHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DIACHIGH" EntityType="Self.DIACHIGH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DONVITINH" EntityType="Self.DONVITINH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FEEDBACK" EntityType="Self.FEEDBACK" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HOADON" EntityType="Self.HOADON" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KHACHHANG" EntityType="Self.KHACHHANG" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KHUYENMAI" EntityType="Self.KHUYENMAI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LOAI" EntityType="Self.LOAI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MONAN" EntityType="Self.MONAN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NHANVIEN" EntityType="Self.NHANVIEN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="THONGKEBAOCAO" EntityType="Self.THONGKEBAOCAO" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TINHTRANGDON" EntityType="Self.TINHTRANGDON" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CT_DATHANG" Association="Self.FK_CT_DATHANG">
+      <End Role="DATHANG" EntitySet="DATHANG" />
+      <End Role="CT_MONAN_DATHANG" EntitySet="CT_MONAN_DATHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CT_MONAN" Association="Self.FK_CT_MONAN">
+      <End Role="MONAN" EntitySet="MONAN" />
+      <End Role="CT_MONAN_DATHANG" EntitySet="CT_MONAN_DATHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTDATHANG_CTHOADON" Association="Self.FK_CTDATHANG_CTHOADON">
+      <End Role="CT_MONAN_DATHANG" EntitySet="CT_MONAN_DATHANG" />
+      <End Role="CTHOADON" EntitySet="CTHOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTHOADON_HOADON" Association="Self.FK_CTHOADON_HOADON">
+      <End Role="HOADON" EntitySet="HOADON" />
+      <End Role="CTHOADON" EntitySet="CTHOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DATHANG_DIACHIGH" Association="Self.FK_DATHANG_DIACHIGH">
+      <End Role="DIACHIGH" EntitySet="DIACHIGH" />
+      <End Role="DATHANG" EntitySet="DATHANG" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DIACHIGH_KHACHHANG" Association="Self.FK_DIACHIGH_KHACHHANG">
+      <End Role="KHACHHANG" EntitySet="KHACHHANG" />
+      <End Role="DIACHIGH" EntitySet="DIACHIGH" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HOADON_DATHANG" Association="Self.FK_HOADON_DATHANG">
+      <End Role="DATHANG" EntitySet="DATHANG" />
+      <End Role="HOADON" EntitySet="HOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HOADON_NHANVIEN" Association="Self.FK_HOADON_NHANVIEN">
+      <End Role="NHANVIEN" EntitySet="NHANVIEN" />
+      <End Role="HOADON" EntitySet="HOADON" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MONAN_DONVITINH" Association="Self.FK_MONAN_DONVITINH">
+      <End Role="DONVITINH" EntitySet="DONVITINH" />
+      <End Role="MONAN" EntitySet="MONAN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MONAN_LOAI" Association="Self.FK_MONAN_LOAI">
+      <End Role="LOAI" EntitySet="LOAI" />
+      <End Role="MONAN" EntitySet="MONAN" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

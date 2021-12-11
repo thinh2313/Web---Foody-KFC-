@@ -1,0 +1,76 @@
+﻿<ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">Quản lý</div>
+    </a>
+
+    <!-- Divider -->
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="@Url.Action("Index", "Account")"
+           aria-expanded="true">
+            <h5>Account</h5>
+        </a>
+
+    </li>
+    <!-- Nav Item - Utilities Collapse Menu -->
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="@Url.Action("Index", "KhachHang")"
+           aria-expanded="true">
+            <h5>Khách hàng</h5>
+        </a>
+    </li>
+
+    <!-- Nav Item - Charts -->
+    <!--<li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Index", "KhuyenMai")">
+            <h5>Khuyến mãi</h5>
+        </a>
+    </li>-->
+    <!-- Nav Item - Tables -->
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Index", "Loai")">
+            <h5>Loại món</h5>
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="@Url.Action("Index", "DonViTinhMon")">
+            <h5>Đơn vị tính</h5>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="@Url.Action("Index","HoaDon")">
+            <h5>Hóa đơn</h5>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="@Url.Action("Index","Feedback")">
+            <h5>Phản hồi của khách hàng</h5>
+        </a>
+    </li>
+    @if (Session["Email"] == null)
+    {
+
+        <li class="nav-item"></li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="@Url.Action("EditAccount", "LoginQuanLy", new { id = Session["ID"]})">
+                <h5>Thông tin</h5>
+            </a>
+        </li>
+    }
+
+
+    <!-- Divider -->
+
+
+</ul>
+

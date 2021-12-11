@@ -1,0 +1,58 @@
+﻿@using WebBanThucAnNhanh.Models;
+@using PagedList.Mvc;
+@model IEnumerable<WebBanThucAnNhanh.Models.MONAN>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainPage.cshtml"; }
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        @foreach (var pro in Model)
+        {<div class="col-lg-4 col-md-4 col-6">
+                @if (pro.STATUS == 1)
+                {
+                    <div class="cake_feature_item">
+                        <div class="cake_img">
+                            <img src="@Url.Content(pro.HINHANH)" width="100%" height="280px" />
+                        </div>
+                        <div class="cake_text">
+                            <h4>@(pro.GIABAN.ToString("N0"))</h4>
+                            <h3>@Html.DisplayFor(model => pro.TENMONAN)</h3>
+
+                            <p class="ghichu">
+                                @Html.DisplayFor(model => pro.MOTA) <a style="font-size:5px;position:relative;color:blue;" onclick="closedetail()"></a>
+
+                            </p>
+                            <a style="font-size:5px;position:absolute;color:blue;" onclick="opendetail()">more</a>
+                            <div class="btn-detail " style=" padding:0 5%;">
+                                <p style="width: 100%;  display: flex;">
+                                    <a href="/GioHang/AddToCart/@pro.MAMONAN" class="pest_btn " style=" margin-right: 5px;">
+                                        Đặt Hàng
+                                    </a>
+
+                                    <a href="/Home/Details/@pro.MAMONAN" class="pest_btn bgdetail ">
+                                        Detail@*@Html.ActionLink("Details", "Details", new { id = pro.MAMONAN })*@
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                @if (pro.STATUS == 2)
+                {
+                    <div>
+
+                    </div>
+                }
+            </div>
+
+        }
+
+    </div>
+}

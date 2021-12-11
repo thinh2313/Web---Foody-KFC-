@@ -1,0 +1,351 @@
+﻿.padding-nextpage{
+    padding-top:40px;
+}
+.total {
+    font-size: 25px;
+    color:#5E6977;
+}
+.price {
+    float: right;
+}
+.carttotal {
+    background-color:#f9f9f9;
+    color: #454545;
+    padding: 20px;
+    font-weight: 550px;
+}
+.Back {
+    color:#43484D;
+    text-align: left;
+    border-radius: 5px;
+    background-color: #ededed;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+}
+
+    .Back:hover {
+        opacity: 0.8
+    }
+.Update {
+    border-radius: 5px;
+    background-color: #ff3939;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+}
+    .Update:hover {
+        opacity: 0.8
+    }
+.padding {
+    padding-top:10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.padding-table {
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.giohang1 {
+    display: flex;
+    border-radius: 100px;
+    background-color: #f0f2ff;
+    margin-top: 50px;
+}
+.giohang2 {
+    border-radius: 100px;
+    background-color: #ff3939;
+    color: #fff;
+}
+.giohang2both {
+    width: 33.33%;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+.header-bg{
+    background-color:#FFFFFF;
+}
+.header {
+    height: 120px;
+    margin: 0px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.shopping-cart {
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+}
+.header-all {
+    margin-bottom:30px;
+    margin-top:45px;
+    position: relative;
+}
+.header-all-font {
+    display: table;
+    margin: 0 auto;
+}
+.header-all-font2{
+    font-weight:600;
+    font-size:40px;
+    margin-bottom:10px;
+}
+.header-all-fbottom {
+    display: table;
+    margin: 0 auto;
+}
+.header-all-fbottom-flex {
+    display: flex;
+    align-items: center;
+}
+.header-all-fbottom-flex-ul {
+    font-size:18px;
+    font-weight:500;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-all-fbottom-flex-li {
+    padding: 0em 1.2em;
+    float: left;
+}
+.sh-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    float: none !important;
+}
+.title {
+    display: flex;
+    padding: 40px 80px 40px 80px;
+    color: #5E6977;
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.title2 {
+    color: #5E6977;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.title2-all{
+    padding:5px;
+}
+.title2-cart {
+    font-weight: 650;
+}
+
+.item {
+    height: 120px;
+    display: flex;
+}
+
+    .item:nth-child(3) {
+        border-top: 1px solid #E1E8EE;
+        border-bottom: 1px solid #E1E8EE;
+    }
+
+.buttons {
+    position: relative;
+    padding-top: 40px;
+    margin-right: 20px;
+}
+
+.delete-btn,
+.like-btn {
+    display: inline-block;
+    Cursor: pointer;
+}
+
+.delete-btn {
+    width: 18px;
+    height: 17px;
+    background: url(https://designmodo.com/demo/shopping-cart/delete-icn.svg) no-repeat center;
+}
+.flex{
+    display:flex;
+}
+.like-btn {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    background: url('twitter-heart.png');
+    width: 60px;
+    height: 60px;
+    background-size: 2900%;
+    background-repeat: no-repeat;
+}
+
+.is-active {
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+    0% {
+        background-position: left;
+    }
+
+    50% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: right;
+    }
+}
+
+.image {
+    border-radius: 15px;
+    margin-right: 50px;
+}
+
+.description {
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+}
+
+    .description span {
+        display: block;
+        font-size: 14px;
+        color: #43484D;
+        font-weight: 400;
+    }
+
+        .description span:first-child {
+            margin-bottom: 5px;
+        }
+
+        .description span:last-child {
+            font-weight: 300;
+            margin-top: 8px;
+            color: #86939E;
+        }
+.code {
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #dcdcdc;
+    background-color: white;
+    color: #5c5c5c;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-code {
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: none;
+    color: gray;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+}
+
+.btn-code:hover {
+    opacity: 0.8
+}
+.quantity {
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.next-page{
+    padding-top:40px;
+}
+    .quantity input {
+        -webkit-appearance: none;
+        border: none;
+        text-align: center;
+        width: 60px;
+        font-size: 16px;
+        color: #43484D;
+        font-weight: 300;
+    }
+
+button[class*=btn] {
+    width: 60px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.minus-btn img {
+    margin-bottom: 3px;
+}
+
+.plus-btn img {
+    margin-top: 2px;
+}
+
+button:focus,
+input:focus {
+    outline: 0;
+}
+
+.total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+
+@media (max-width: 800px) {
+    .shopping-cart {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .item {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .image img {
+        width: 50%;
+    }
+
+    .image,
+    .quantity,
+    .description {
+        width: 100%;
+        text-align: center;
+        margin: 6px 0;
+    }
+
+    .buttons {
+        margin-right: 20px;
+    }
+}

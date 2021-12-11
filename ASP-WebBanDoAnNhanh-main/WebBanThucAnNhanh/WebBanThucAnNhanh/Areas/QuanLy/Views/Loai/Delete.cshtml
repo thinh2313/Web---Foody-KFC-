@@ -1,0 +1,37 @@
+﻿@model WebBanThucAnNhanh.Models.LOAI
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/QuanLy/Views/Shared/_Layout.cshtml";
+}
+
+
+<h4>LOAI</h4>
+<hr />
+<dl class="dl-horizontal">
+    <dt>
+        @Html.DisplayNameFor(model => model.MALOAI)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.MALOAI)
+    </dd>
+
+    <dt>
+        @Html.DisplayNameFor(model => model.TENLOAI)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.TENLOAI)
+    </dd>
+
+</dl>
+@using (Html.BeginForm("Delete", "Loai", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+}
+

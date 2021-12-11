@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="426a75fd4ebb4cfcb55542d6288cc285" Name="Diagram1">
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.ADMIN" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.CT_MONAN_DATHANG" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.CTHOADON" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.DATHANG" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.DIACHIGH" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.DONVITINH" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.FEEDBACK" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.HOADON" Width="1.5" PointX="5.25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.KHACHHANG" Width="1.5" PointX="1.5" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.KHUYENMAI" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.LOAI" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.MONAN" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.NHANVIEN" Width="1.5" PointX="3" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.THONGKEBAOCAO" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLThucAnNhanhModel.TINHTRANGDON" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_CT_DATHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_CT_MONAN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_CTDATHANG_CTHOADON" ManuallyRouted="false" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_CTHOADON_HOADON" ManuallyRouted="false" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_DATHANG_DIACHIGH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_HOADON_DATHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_DIACHIGH_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_MONAN_DONVITINH" ManuallyRouted="false" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_HOADON_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QLThucAnNhanhModel.FK_MONAN_LOAI" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,61 @@
+﻿@model WebBanThucAnNhanh.Models.FEEDBACK
+
+@{
+    ViewBag.Title = "AddFeedback";
+    Layout = "~/Views/Shared/_Layout.cshtml";}
+
+<style>
+    .detailfeedback{
+        min-height:200px;
+        text-align:left;
+        vertical-align:inherit;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h2>Phản hồi đến chúng tôi</h2>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    
+    <div class="form-group">
+        <p class="control-label col-md-2">Số điện thoại</p>
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+    <div class="form-group">
+        <p class="control-label col-md-2">Tên  </p>
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.TENKH, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+
+    </div>
+    <div class="form-group">
+        <p class="control-label col-md-2">Nội dung</p>
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.NOIDUNG, new { htmlAttributes = new { @class = "form-control detailfeedback" } })
+            @Html.ValidationMessageFor(model => model.NOIDUNG, "", new { @class = "text-danger" })
+        </div>
+    </div>
+</div>
+   
+
+    <div class="form-group" >
+        <div class="col-md-offset-2 col-md-10">
+            <div class="btn-detail " style=" padding:0 5%;">
+                <button type="submit" value="" class="btn pest_btn">Gửi</button>
+
+                    
+
+                    <a href="@Url.Action("Index","Home")" class="pest_btn bgdetail ">
+                        Quay lại@*@Html.ActionLink("Details", "Details", new { id = pro.MAMONAN })*@
+                    </a>
+            </div>
+        </div>
+    </div>
+}
+

@@ -1,0 +1,74 @@
+﻿@model IEnumerable<WebBanThucAnNhanh.Models.HOADON>
+
+@{
+    ViewBag.Title = "DonDat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+    <style>
+        .table th{
+            text-transform:uppercase;
+        }
+    </style>
+</head>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="table-responsive">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">
+                        Ngày giờ
+                    </th>
+                    <th scope="col">
+                        Mã hóa đơn
+                    </th>
+                    <th scope="col">
+                        Tên khách hàng
+                    </th>
+                    <th scope="col">
+                        SĐT
+                    </th>
+                    <th scope="col">
+                        Địa chỉ
+                    </th>
+                    <th scope="col">
+                        Tổng tiền
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NGAYGIO)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MAHOADON)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.HOTEN)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.SDT)
+                    </td>
+                    <td>
+                        <span>@Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.SONHA)</span>
+                        <span>P.@Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.PHUONG)</span>
+                        <span>Q.@Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.QUAN)</span>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TONGTIEN)
+                    </td>
+                </tr>
+
+                }
+            </tbody>
+
+        </table>
+
+    </div>
+}

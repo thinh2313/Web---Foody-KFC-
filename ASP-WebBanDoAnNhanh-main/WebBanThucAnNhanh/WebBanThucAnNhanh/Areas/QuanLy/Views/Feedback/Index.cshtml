@@ -1,0 +1,40 @@
+﻿@model IEnumerable<WebBanThucAnNhanh.Models.FEEDBACK>
+
+@{
+    ViewBag.Title = "ListFeedback";
+    Layout = "~/Areas/QuanLy/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ListFeedback</h2>
+
+
+<table class="table">
+    <tr style="text-transform:uppercase">
+
+        <th>
+            Số điện thoại
+        </th>
+        <th>Tên</th>
+        <th>Nội dung</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TENKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NOIDUNG)
+            </td>
+            <td>
+                <a href="@Url.Action("Details","Feedback", new { id = @item.MAFEEDBACK })" class="btn btn-sm btn-dark">Chi tiết</a>
+                <a href="@Url.Action("Delete","Feedback", new { id = @item.MAFEEDBACK })" class="btn btn-sm btn-danger">Xóa</a>
+            </td>
+        </tr>
+    }
+
+</table>

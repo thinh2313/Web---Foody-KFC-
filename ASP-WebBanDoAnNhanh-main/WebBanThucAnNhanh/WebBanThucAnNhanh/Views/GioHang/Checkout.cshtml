@@ -1,0 +1,136 @@
+﻿@model WebBanThucAnNhanh.Models.DIACHIGH
+@{
+    var GioHang = Session["GioHang"] as WebBanThucAnNhanh.Models.GioHang;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Assets/css/GioHang/checkout.css" rel="stylesheet" />
+    <link href="~/Assets/css/GioHang/use.css" rel="stylesheet" />
+    <link href="~/Assets/css/GioHang/StyleSheet1.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header-bg">
+        <div class="header">
+            <div class="header-all">
+                <div class="header-all-font">
+                    <div class="header-all-font2">
+                        KFC RESTAURANT
+                    </div>
+                </div>
+                <div class="header-all-fbottom">
+                    <div class="header-all-fbottom-flex">
+                        <ul class="header-all-fbottom-flex-ul">
+                            <li class="header-all-fbottom-flex-li">
+                                <a href="/Home">HOME</a>
+                            </li>
+                            <li class="header-all-fbottom-flex-li">
+                                <a href="">ABOUT</a>
+                            </li>
+                            <li class="header-all-fbottom-flex-li">
+                                <a href="">OFFER</a>
+                            </li>
+                            <li class="header-all-fbottom-flex-li">
+                                <a href="">MENU</a>
+                            </li>
+                            <li class="header-all-fbottom-flex-li">
+                                <a href="">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <div class="sh-table-cell">
+            Thanh Toán
+        </div>
+        <div class="title2 sh-table-cell">
+            <span class="title2-all">
+                <a href="/Home">Home</a>
+            </span>
+            <span class="title2-all title2-cart"> > </span>
+            <span class="title2-all">
+                <a href="GioHang/ShowToCart">Giỏ Hàng</a>
+            </span>
+            <span class="title2-all title2-cart"> > </span>
+            <span class="title2-all title2-cart">Thanh Toán</span>
+        </div>
+    </div>
+    <div class="shopping-cart">
+        <div class="padding">
+            <div class="giohang1">
+                <div class="giohang2both">
+                    Giỏ Hàng
+                </div>
+                <div class="giohang2 giohang2both">
+                    Thanh Toán
+                </div>
+                <div class="giohang2both">
+                    Thành Công
+                </div>
+            </div>
+        </div>
+            <div class="padding-table">
+                <div class="row">
+                @using (Html.BeginForm("PaymentWithPaypal", "GioHang", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <div style="width:80%">
+                        <h3 style="font-size: 24px; font-weight: 800;">Thông tin Khách Hàng</h3>
+                        <div>
+                            <label for="fname"><i></i> Họ Và Tên</label>
+                            <span>
+                                @Html.EditorFor(model => model.HOTEN, new { htmlAttributes = new { @class = "form-control" } })
+                                <p>@Html.ValidationMessageFor(model => model.HOTEN)</p>
+                            </span>
+                        </div>
+
+                        <label for="phone"><i></i> Số Điện Thoại</label>
+                        @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control" } })
+                        <p>@Html.ValidationMessageFor(model => model.SDT)</p>
+                        <label for="adr"><i></i> Địa Chỉ</label>
+                        @Html.EditorFor(model => model.SONHA, new { htmlAttributes = new { @class = "form-control" } })
+                        <p>@Html.ValidationMessageFor(model => model.SONHA)</p>
+                        <label for="phuong"><i></i>Phường</label>
+                        @Html.EditorFor(model => model.PHUONG, new { htmlAttributes = new { @class = "form-control" } })
+                        <p>@Html.ValidationMessageFor(model => model.PHUONG)</p>
+                        <label for="quan"><i></i>Quận</label>
+                        @Html.EditorFor(model => model.QUAN, new { htmlAttributes = new { @class = "form-control" } })
+                        <p>@Html.ValidationMessageFor(model => model.QUAN)</p>
+                        <div style="padding-bottom:100px;font-weight:500;color:#ffc200;">*HIỆN TẠI CHỈ CÓ PHƯƠNG THỨC THANH TOÁN BẰNG TIỀN MẶT</div>
+                    </div>
+                    <div class="col-25">
+                        <div>
+                            <h2 style="color:#1a1a1a">
+                                TỔNG GIỎ HÀNG
+                                <span c style="color:#1a1a1a;padding-left:15px">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <b>
+                                        @Html.Action("BagCart", "GioHang")
+                                    </b>
+                                </span>
+                            </h2>
+                            <div>
+                                @foreach (var pro in GioHang.Items)
+                                {
+                                    double total = pro._monan.GIABAN * pro._quantity;
+                                    <p style="margin-block-start: 0em; margin-block-end: 0em;" class="carttotal"> @Html.DisplayFor(model => pro._monan.TENMONAN) x @Html.DisplayFor(model => pro._quantity) <span class="price">@total.ToString("N0") VNĐ</span></p>
+                                }
+                                <p style="margin-block-start:1mm; margin-block-end: 0em;" class="carttotal">TỔNG TIỀN <span class="price" style="color:black"><b>@GioHang.Total_money().ToString("N0") VNĐ</b></span></p>
+                            </div>
+                        </div>
+                        <div style="padding-top:15px">
+                            <input class="Update" type="submit" value="Tiếp Tục Thanh Toán" />
+                        </div>
+                    </div>
+                
+                }
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

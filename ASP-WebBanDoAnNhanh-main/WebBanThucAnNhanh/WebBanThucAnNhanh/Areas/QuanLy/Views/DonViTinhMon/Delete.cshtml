@@ -1,0 +1,37 @@
+﻿@model WebBanThucAnNhanh.Models.DONVITINH
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/QuanLy/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Delete", "DonViTinhMon", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>DONVITINH</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MADONVITINH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MADONVITINH)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TENDONVITINH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TENDONVITINH)
+        </dd>
+    </dl>
+
+
+
+    <div class="form-actions no-color">
+        <input type="submit" value="Delete" class="btn btn-default" />
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+
+}

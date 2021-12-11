@@ -1,0 +1,95 @@
+﻿@model WebBanThucAnNhanh.Models.KHACHHANG
+
+@{
+    ViewBag.Title = "EditAccount";
+    Layout = "~/Views/Shared/_Layout.cshtml";}
+
+
+<style>
+
+    .forminfo{
+        padding:0 10%;
+        text-align:center;
+    }
+    .labelinfo {
+        font-weight: bold;
+    }
+</style>
+@using (Html.BeginForm("EditAccount"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal forminfo">
+        <h2 style="text-transform:uppercase ">Thông tin cá nhân</h2>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <p class="control-label col-md-2 labelinfo">Mã khách hàng</p> 
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MAKHACHHANG, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MAKHACHHANG, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2 labelinfo">Tên khách hàng</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TENKHACHHANG, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TENKHACHHANG, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2 labelinfo">Ngày sinh</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NGAYSINH, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NGAYSINH, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2 labelinfo">Địa chỉ</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DIACHI, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DIACHI, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2 labelinfo">Số điện thoại</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SDT, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2 labelinfo">Email</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EMAIL, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.EMAIL, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <p class="control-label col-md-2 labelinfo">Mật khẩu</p>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PASSWORD, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.PASSWORD, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+       
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Lưu" class="pest_btn btn"    />
+            </div>
+        </div>
+    </div>
+   
+}
+
+<div>
+    <a href="@Url.Action("Index","Home")">Quay về mua hàng</a>
+</div>

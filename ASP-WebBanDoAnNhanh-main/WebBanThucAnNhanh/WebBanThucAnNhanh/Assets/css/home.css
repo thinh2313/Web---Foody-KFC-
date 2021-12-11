@@ -1,0 +1,99 @@
+﻿.card {
+    width: 200px;
+    padding-bottom:5px;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: white;
+    float: left;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#div-content {
+    background-color: bisque;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.containerMain {
+    width: 100% !important;
+    box-sizing: inherit;
+    display: flex;
+}
+
+#titleKFC {
+    font: 30px;
+    color: tan;
+}
+
+#margin-card {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.img-responsive {
+    height: 400px;
+}
+
+.btn-detail {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.btn-detail1 {
+    display: flex;
+    box-sizing: border-box;
+    width: 79px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: .5em;
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 5px;
+    position: relative;
+}
+
+.btn-detail2 {
+    display: flex;
+    box-sizing: border-box;
+    width: 79px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: red;
+    padding: .5em;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+}
+
+.margin-next-carousel {
+    margin-top: 5px;
+}
+
+.img-carousel {
+    border-radius: 10px;
+}

@@ -1,0 +1,90 @@
+﻿@model IEnumerable<WebBanThucAnNhanh.Models.HOADON>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/QuanLy/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6 text-danger text-uppercase">
+                    <strong>Danh sách hóa đơn</strong>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="card-block p-3">
+        <table class="table table-bordered table-hover table-striped">
+        
+            <tr>
+                <th>
+                    NGÀY GIỜ
+                </th>
+                <th>
+                    MÃ HÓA ĐƠN
+                </th>
+                <th>
+                    TÊN KHÁCH HÀNG
+                </th>
+                <th>
+                    SĐT
+                </th>
+                <th>
+                    ĐỊA CHỈ
+                </th>
+                <th>
+                    TỔNG THUẾ
+                </th>
+                <th>
+                    GHI CHÚ
+                </th>
+                <th>
+                    TỔNG TIỀN
+                </th>
+
+            </tr>
+
+                @foreach (var item in Model)
+                {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NGAYGIO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MAHOADON)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.HOTEN)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.SDT)
+            </td>
+            <td>
+                <span>@Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.SONHA)</span>
+                <span>P.@Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.PHUONG)</span>
+                <span>Q.@Html.DisplayFor(modelItem => item.DATHANG.DIACHIGH.QUAN)</span>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DATHANG.GHICHU)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TONGTHUE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TONGTIEN)
+            </td>
+            <td>
+                <a href="@Url.Action("Details","HoaDon", new { id = @item.MAHOADON })" class="btn btn-sm btn-warning">Chi tiết</a>
+                
+            </td>
+        </tr>
+                }
+
+            </table>
+        </div>
+}

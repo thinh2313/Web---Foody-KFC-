@@ -1,0 +1,99 @@
+﻿@model IEnumerable<WebBanThucAnNhanh.Models.MONAN>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/NhanVien/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6 text-danger text-uppercase">
+                    <strong>Danh sách sản phẩm</strong>
+                </div>
+                <div class="col-md-6 text-right">            
+                    <a href="@Url.Action("Index","MonAn")" class="btn btn-sm btn-success">Danh sách sản phẩm</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-block p-3">
+        <table class="table table-bordered table-hover table-striped">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.MAMONAN)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TENMONAN)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.HINHANH)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DONVITINH)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.GIABAN)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LOAI)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MOTA)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SOLUONG)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.STATUS)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MAMONAN)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TENMONAN)
+                    </td>
+                    <td>
+                        <img src="~/Assets/admin/@item.HINHANH" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DONVITINH.TENDONVITINH)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GIABAN)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LOAI.TENLOAI)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MOTA)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SOLUONG)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.STATUS)
+                    </td>
+                    <td>
+                      
+                        <a href="@Url.Action("Retrash","MonAn", new { id = @item.MAMONAN })" class="btn btn-sm btn-warning">Khôi phục</a>
+                        <a href="@Url.Action("Delete","MonAn", new { id = @item.MAMONAN })" class="btn btn-sm btn-danger">Xóa vv</a>
+
+
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+}
+

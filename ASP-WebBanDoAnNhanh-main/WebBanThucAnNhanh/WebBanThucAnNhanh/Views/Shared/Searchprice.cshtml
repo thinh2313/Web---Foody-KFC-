@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebBanThucAnNhanh.Models.MONAN>
+
+@{
+    ViewBag.Title = "Searchprice";
+    Layout = "~/Views/Shared/_MainPage.cshtml";
+}
+<style>
+    .search-btn {
+        background-color: #3e606b;
+        padding: 0 !important;
+    }
+</style>
+@using (Html.BeginForm("Searchprice", "MonAn"))
+{
+    <p style="text-align:right; padding:15px;  ">
+        <span>Giá từ</span>
+        <input type="number" name="min" value="" />
+        <span>đến</span>
+        <input type="number" name="max" value="" />
+        <input type="submit" class="pest_btn search-btn" name="name" value="Search" />
+    </p>
+    <div>
+    @foreach (var pro in Model)
+    {<div class="col-lg-4 col-md-4 col-6">
+            <div class="cake_feature_item">
+                <div class="cake_img">
+                    <img src="@Url.Content(pro.HINHANH)" width="100%" height="280px" />
+                </div>
+                <div class="cake_text">
+                    <h4>@(pro.GIABAN.ToString("N0")) @*<span>k</span>*@</h4>
+                    <h3>@Html.DisplayFor(model => pro.TENMONAN)</h3>
+
+                    <p class="ghichu">@Html.DisplayFor(model => pro.MOTA)</p>
+                    <div class="btn-detail " style="display:flex; padding:0 5%; ">
+                        <p style="display: flex;width:100%">
+                            <a href="/GioHang/AddToCart/@pro.MAMONAN" class="pest_btn " style=" margin-right: 5px;">
+                                Đặt Hàng
+                            </a>
+
+                            <a href="/Home/Details/@pro.MAMONAN" class="pest_btn bgdetail ">
+                                Detail@*@Html.ActionLink("Details", "Details", new { id = pro.MAMONAN })*@
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+    </div>
+
+}
+

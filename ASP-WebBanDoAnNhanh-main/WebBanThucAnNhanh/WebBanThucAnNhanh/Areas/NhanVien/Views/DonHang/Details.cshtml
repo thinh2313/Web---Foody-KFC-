@@ -1,0 +1,74 @@
+﻿@model WebBanThucAnNhanh.Models.DATHANG
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/NhanVien/Views/Shared/_Layout.cshtml";
+    var CTDATHANG = Session["CTDATHANG"] as WebBanThucAnNhanh.Models.CT_MONAN_DATHANG;
+}
+<div style="padding-left:20px">
+    <h2>CHI TIẾT ĐẶT HÀNG</h2>
+
+    <div>
+        <h4>MÃ ĐẶT HÀNG : @Html.DisplayFor(model => model.MADATHANG)</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                NGÀY : @Html.DisplayFor(model => model.NGAY)
+            </dt>
+            <dt>
+                TỔNG TIỀN : @Html.DisplayFor(model => model.TONGTIEN)
+            </dt>
+            <dt>
+                TRẠNG THÁI :  @if (Model.TRANGTHAI.Equals(0))
+                {
+                    <span>Xác Nhận</span>
+                }
+                @if (Model.TRANGTHAI.Equals(1))
+                {
+                    <span>Đã Xác Nhận</span>
+                }
+                @if (Model.TRANGTHAI.Equals(2))
+                {
+                    <span>Đã Hoàn Tất</span>
+                }
+                else
+                {
+                    <span>Đã Hủy Đơn</span>
+                }
+            </dt>
+        </dl>
+    </div>
+    <hr />
+    <table class="table">
+        <tr>
+            <th>
+                MÃ MÓN ĂN
+            </th>
+            <th>
+                SỐ LƯỢNG
+            </th>
+            <th>
+                GIÁ BÁN
+            </th>
+        </tr>
+
+        @foreach (var item in Model.CT_MONAN_DATHANG)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MONAN.MAMONAN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SOLUONG)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GIABAN)
+                </td>
+            </tr>
+        }
+
+    </table>
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>

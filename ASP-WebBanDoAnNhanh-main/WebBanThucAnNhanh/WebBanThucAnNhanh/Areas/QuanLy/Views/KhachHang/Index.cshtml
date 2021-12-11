@@ -1,0 +1,84 @@
+﻿@model IEnumerable<WebBanThucAnNhanh.Models.KHACHHANG>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/QuanLy/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="card">
+        <div class="card-header">
+            <div class="row">
+                <div class="col-md-6 text-danger text-uppercase">
+                    <strong>Danh sách khách hàng</strong>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a href="@Url.Action("Create", "KhachHang")" class="btn btn-sm btn-success">Thêm mới khách hàng</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-block p-3">
+        <table class="table table-bordered table-hover table-striped">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TENKHACHHANG)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.NGAYSINH)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DIACHI)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SDT)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EMAIL)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PASSWORD)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LOAI)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TENKHACHHANG)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NGAYSINH)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DIACHI)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SDT)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EMAIL)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PASSWORD)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LOAI)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = @item.MAKHACHHANG }) |
+                        @Html.ActionLink("Details", "Details", new { id = @item.MAKHACHHANG }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = @item.MAKHACHHANG })
+                    </td>
+                </tr>
+            }
+
+        </table>
+        </div>
+ }

@@ -1,0 +1,88 @@
+﻿@model WebBanThucAnNhanh.Models.MONAN
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/NhanVien/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MONAN</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MAMONAN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MAMONAN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TENMONAN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TENMONAN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HINHANH)
+        </dt>
+
+        <dd>
+            <img src="@Url.Content(Model.HINHANH)" style="height:200px;width:200px;margin:10px;" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DONVITINH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DONVITINH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GIABAN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GIABAN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LOAI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LOAI.TENLOAI)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MOTA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MOTA)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SOLUONG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SOLUONG)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.STATUS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.STATUS)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

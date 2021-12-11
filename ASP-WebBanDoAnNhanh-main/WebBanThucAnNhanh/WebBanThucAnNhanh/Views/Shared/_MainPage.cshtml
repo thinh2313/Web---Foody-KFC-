@@ -1,0 +1,378 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    @*<link rel="icon" href="img/fav-icon.png" type="image/x-icon" />*@
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>KFC - Restaurant</title>
+
+    <!-- Icon css link -->
+    <link href="~/Assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Assets/vendors/linearicons/style.css" rel="stylesheet" />
+    <link href="~/Assets/vendors/flat-icon/flaticon.css" rel="stylesheet" />
+    <link href="~/Assets/vendors/stroke-icon/style.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Rev slider css -->
+    <link href="~/Assets/vendors/revolution/css/settings.css" rel="stylesheet" />
+    <link href="~/Assets/vendors/revolution/css/layers.css" rel="stylesheet" />
+    <link href="~/Assets/vendors/revolution/css/navigation.css" rel="stylesheet" />
+    <link href="~/Assets/vendors/animate-css/animate.css" rel="stylesheet" />
+    <!-- Extra plugin css -->
+    <link href="~/Assets/vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/Assets/vendors/magnifc-popup/magnific-popup.css" rel="stylesheet" />
+    <link href="~/Assets/vendors/jquery-ui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/Assets/vendors/nice-select/css/nice-select.css" rel="stylesheet" />
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link href="~/Assets/css/responsive.css" rel="stylesheet" />
+    <!--================End Search Box Area =================-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="~/Scripts/js/jquery-3.2.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="~/Scripts/js/popper.min.js"></script>
+    <script src="~/Scripts/js/bootstrap.min.js"></script>
+    <!-- Rev slider js -->
+    <script src="~/Assets/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="~/Assets/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="~/Assets/vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="~/Assets/vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="~/Assets/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="~/Assets/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="~/Assets/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <!-- Extra plugin js -->
+    <script src="~/Assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="~/Assets/vendors/magnifc-popup/jquery.magnific-popup.min.js"></script>
+    @*<script src="~/Assets/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="~/Assets/vendors/isotope/isotope.pkgd.min.js"></script>*@
+    @*<script src="~/Assets/vendors/datetime-picker/js/moment.min.js"></script>*@
+    @*<script src="~/Assets/vendors/datetime-picker/js/bootstrap-datetimepicker.min.js"></script>*@
+    <script src="~/Assets/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="~/Assets/vendors/jquery-ui/jquery-ui.min.js"></script>
+    @*<script src="~/Assets/vendors/lightbox/simpleLightbox.min.js"></script>*@
+
+    @*<script src="~/Scripts/js/theme.js"></script>*@
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <!--================Main Header Area =================-->
+    <header class="main_header_area">
+        <div class="top_header_area row m0">
+            <div class="container">
+                <div class="float-left">
+                    <a href="tell:+18004567890"><i class="fa fa-phone" aria-hidden="true"></i> 0703 497 948</a>
+                    <a href="mainto:info@cakebakery.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> kfc_online@huflit.edu.vn</a>
+                </div>
+                <div class="float-right">
+                    <ul class="h_social list_style">
+                        @if (Session["Email"] == null)
+                        {
+                            <li><a href="@Url.Action("Login", "LoginUser")" class="dropdown-toggle">Đăng nhập</a></li>
+                        }
+                        else
+                        {
+                            <li><span style="color:black;text-align:center;vertical-align:middle;">@Session["Email"]</span></li>
+                            <li><a href="@Url.Action("Logout", "LoginUser")">Đăng xuất</a></li>
+
+                        }
+                        <li><a href="https://www.facebook.com/ThoBayMau"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/mannhi2311/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/KFCVietnam2011"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                    <ul class="h_search list_style">
+                        <li><a href="GioHang/ShowToCart"><i class="lnr lnr-cart"></i>@Html.Action("BagCart", "GioHang")</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_menu_area">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin:0;">
+                    <a class="navbar-brand" href="@Url.Action("Index","Home")">
+                        <img src="~/Assets/images/kfc.png" style="border-radius:15px;" width="150" height="100 ">
+                    </a>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="dropdown submenu">
+                                <a class="dropdown-toggle" href="@Url.Action("Index","Home")" role="button" aria-haspopup="true" aria-expanded="false">Thực đơn</a>
+                                @*<ul class="dropdown-menu">
+                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="index-2.html">Home 2</a></li>
+                                        <li><a href="index-3.html">Home 3</a></li>
+                                        <li><a href="index-4.html">Home 4</a></li>
+                                        <li><a href="index-5.html">Home 5</a></li>
+                                    </ul>*@
+                            </li>
+                            <li class="dropdown submenu">
+                                <a class="dropdown-toggle" href="#" role="button" aria-haspopup="true" aria-expanded="false">Khuyến mãi</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav justify-content-end">
+                            <li class="dropdown submenu">
+                                <a href="@Url.Action("Create","Feedback")">Phản hồi</a>
+                            </li>
+                            @if (Session["Email"] == null)
+                            {
+                                <li class="dropdown submenu">
+                                    <a href="@Url.Action("RegisterUser", "LoginUser")" class="dropdown-toggle">Đăng ký</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="dropdown submenu">
+                                    <a href="@Url.Action("DonDat", "LoginUser", new { id = Session["MaKH"] })">Đơn Đặt</a>
+                                </li>
+                                <li class="dropdown submenu">
+                                    <a href="@Url.Action("EditAccount", "LoginUser", new { id = Session["MaKH"] })">Thông tin</a>
+                                </li>
+                            }
+
+
+
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--================End Main Header Area =================-->
+    <!--================End Main Header Area =================-->
+    <section class="banner_area">
+        <div class="container">
+            <div class="banner_text">
+                <h3>KFC-Nhà hàng Online</h3>
+
+            </div>
+        </div>
+    </section>
+    <!--================End Main Header Area =================-->
+    <!--================Product Area =================-->
+    <section class="product_area p_100">
+        <div class="container">
+            <div class="row product_inner_row">
+                <div class="col-lg-3">
+                    <div class="product_left_sidebar">
+                        <aside class="left_sidebar search_widget" style="margin:0 !important">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Enter Search Keywords">
+                                <div class="input-group-append">
+                                    <button class="btn" type="button"><i class="icon icon-Search"></i></button>
+                                </div>
+                            </div>
+                        </aside>
+                        <aside class="left_sidebar p_catgories_widget">
+                            <div class="p_w_title">
+                                <h3>Danh mục sản phẩm</h3>
+                            </div>
+                            <ul class="list_style" style="margin:0 !important;padding:0 !important;">
+                                @{ Html.RenderAction("LoaiPartial", "Loai");}
+                            </ul>
+                        </aside>
+                        <aside class="left_sidebar p_price_widget">
+                            <div class="p_w_title">
+                                <h3><a href="/MonAn/Searchprice">Tìm theo giá</a></h3>
+                            </div>
+
+                        </aside>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="block">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+
+                                    <a class="navbar-brand" href="#">
+                      Menu
+                                    </a>
+
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                               
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                    @*<div class="row m0 product_task_bar">
+                            <div class="product_task_inner">
+                                <div class="float-left">
+                                    <p> <strong>KFC-Restaurant</strong></p>
+                                </div>
+                                <div class="float-right">
+
+                                </div>
+                            </div>
+                        </div>*@
+                    <div class="row product_item_inner" style="min-height:700px;">
+
+
+                        @RenderBody()
+
+                    </div>
+                </div>
+
+            </div>
+            <!--Phan trang-->
+            <div class="product_pagination">
+                <div class="left_btn">
+                    <a href="#"><i class="lnr lnr-arrow-left"></i> Trang trước</a>
+                </div>
+                <div class="middle_list">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">12</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="right_btn"><a href="#">Trang sau<i class="lnr lnr-arrow-right"></i></a></div>
+            </div>
+            <!--End Phan trang-->
+        </div>
+    </section>
+    <!--================End Product Area =================-->
+    <!--================Newsletter Area =================-->
+    <section class="newsletter_area">
+        <div class="container">
+            <div class="row newsletter_inner" style="width:100%">
+                <div class="row">
+                    <div class="col-12 col-lg-6 left_banner">
+                        <div class="clearfix">
+                            <div class="main_link">
+                                <a href="https://www.kfcvietnam.com.vn/vi/dat-tiec.html" target="_blank">
+                                    <img src="https://kfcvietnam.com.vn/uploads/banner/55e251880deec0ecc66ec6ad17e10832.png" style="        user-select: none;
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        vertical-align: middle;
+
+">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 right_banner">
+                        <div class="clearfix">
+                            <div class="main_link">
+                                <img src="https://kfcvietnam.com.vn/uploads/banner/71705e87d5d8af3ffcd70fafab3548d3.png" style="user-select: none;
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        vertical-align: middle;
+">
+                            </div>
+                            <a class="link_app link_appstore" target="_blank" href="https://apps.apple.com/vn/app/kfc-vietnam/id562164615?l=vi"></a>
+                            <a class="link_app link_googleplay" target="_blank" href="https://play.google.com/store/apps/details?id=kfc.vietnam&amp;hl=vi"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Newsletter Area =================-->
+    <!--================Footer Area =================-->
+    <footer class="footer_area">
+        <div class="footer_widgets">
+            <div class="container">
+                <div class="row footer_wd_inner">
+                    <div class="col-lg-3 col-6">
+                        <aside class="f_widget f_about_widget">
+                            <img src="" alt="">
+                            <p>Có thể theo dõi chúng tôi qua các nền tảng truyền thông, mạng xã hội.</p>
+                            <ul class="nav">
+                                <li><a href="https://www.facebook.com/ThoBayMau"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/mannhi2311/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/user/KFCVietnam2011"><i class="fa fa-youtube-play"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <aside class="f_widget f_link_widget">
+                            <div class="f_title">
+                                <h3>Đi nhanh đến</h3>
+                            </div>
+                            <ul class="list_style">
+
+                                @if (Session["Email"] == null)
+                                {
+                                    <li class="dropdown submenu">
+                                        <a href="@Url.Action("RegisterUser", "LoginUser")" class="dropdown-toggle">Đăng ký</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="dropdown submenu">
+                                        <a href="@Url.Action("DonDat", "LoginUser", new { id = Session["MaKH"] })">Đơn Đặt</a>
+                                    </li>
+                                    <li class="dropdown submenu">
+                                        <a href="@Url.Action("EditAccount", "LoginUser", new { id = Session["MaKH"] })">Thông tin</a>
+                                    </li>
+                                }
+
+                                <li><a href="@Url.Action("Index","Home")">Món ăn của chúng tôi</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+
+                    <div class="col-lg-3 col-6">
+                        <aside class="f_widget f_contact_widget">
+                            <div class="f_title">
+                                <h3>Liên hệ</h3>
+                            </div>
+                            <h4>0703 497 948</h4>
+                            <p>KFC RESTAURANT <br />Sư Vạn Hạnh , Quận 10 , thành phố Hồ Chí Minh , Việt Nam</p>
+                            <h5>kfc_online@huflit.edu.vn</h5>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <div class="container">
+                <div class="copyright_inner">
+                    <div class="float-left">
+                    </div>
+                    <div class="float-right">
+                        <a href="/home/index">Mua ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
+    <!--================Search Box Area =================-->
+    <div class="search_area zoom-anim-dialog mfp-hide" id="test-search">
+        <div class="search_box_inner">
+            <h3>Search</h3>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><i class="icon icon-Search"></i></button>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,675 @@
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+C:\Users\navyc\OneDrive\Desktop\Github\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+D:\HUFLIT\THUCANNHANH\WebBanThucAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+H:\năm 3 - HK2\Đồ án 1\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+D:\git-hub\ASP-WebBanDoAnNhanh\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+D:\Github\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+D:\Github\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+D:\Github\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+D:\Github\New folder\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+D:\HUFLIT\THUCANNHANH\Hai\24-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+H:\năm 3 - HK2\Đồ án 1\25-5-2021\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+D:\HUFLIT\THUCANNHANH\Hai\25-5\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PayPal.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PayPal.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PagedList.dll
+D:\HUFLIT\THUCANNHANH\Hai\29-5 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PagedList.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PagedList.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PayPal.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PagedList.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PayPal.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+H:\năm 3 - HK2\Đồ án 1\16-6-2021\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll.config
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebBanThucAnNhanh.pdb
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.exe.config
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csc.rsp
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.exe.config
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\csi.rsp
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Buffers.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Memory.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.exe.config
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\vbc.rsp
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PagedList.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PayPal.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\WebGrease.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PagedList.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\PayPal.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Data.SqlClient.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Helpers.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Mvc.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Optimization.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.Razor.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Deployment.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\System.Web.WebPages.Razor.xml
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\bin\Antlr3.Runtime.pdb
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.csproj.CopyComplete
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.dll
+C:\Users\USER\Desktop\16-6 ASP\ASP-WebBanDoAnNhanh-main\WebBanThucAnNhanh\WebBanThucAnNhanh\obj\Debug\WebBanThucAnNhanh.pdb

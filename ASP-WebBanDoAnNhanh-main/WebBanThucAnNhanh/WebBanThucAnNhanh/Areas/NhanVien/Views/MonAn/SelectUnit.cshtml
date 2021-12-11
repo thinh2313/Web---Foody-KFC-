@@ -1,0 +1,4 @@
+﻿@model WebBanThucAnNhanh.Models.DONVITINH
+
+@Html.DropDownListFor(model => model.MADONVITINH,
+new SelectList(Model.listUnit.OrderBy(model => model.TENDONVITINH), "MADONVITINH", "TENDONVITINH"), "--Chọn đơn vị tính--")
